@@ -1,0 +1,29 @@
+.container-fluid {
+    height: 100vh;
+    background-color: beige;
+
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    max-height: 100vh;
+}
+
+main{
+    flex-grow: 1;
+
+}
+
+.sidebar{
+    background-color: brown;
+}
+
+.content{
+    background-color: cadetblue;
+}
+
+footer{
+    height: 90px;
+
+}
