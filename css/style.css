@@ -1,6 +1,7 @@
 .container-fluid {
     height: 100vh;
     background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
@@ -11,19 +12,75 @@
 }
 
 main{
-    flex-grow: 1;
+    height: calc(100% - 90px);
+    
+
 
 }
 
 .sidebar{
     background-color: brown;
+    color: white;
 }
 
-.content{
+main .content{
     background-color: cadetblue;
+    overflow-y: scroll;
+    height: 100%;
+
 }
 
 footer{
+    background-color: #282828;
     height: 90px;
 
+}
+
+.top-bar{
+    height: 90px;
+    opacity: 70%;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+}
+/* ESEMPIO per calcolare sforo contenuti rispetto
+al container */
+.example{
+    height: 200vh;
+    width: 200px;
+}
+
+.player{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+
+
+}
+
+
+ul{
+    display: flex;
+    list-style: none;
+    color: white;
+    font-size: 12px;
+    align-items: center;
+
+}
+
+
+/* soluzione per immagine da chiarire */
+img{
+    width: 70px;
+    height: 70px;
+    
+    
+}
+
+.fa-play-circle{
+    font-size: 24px;
+}
+
+.first-ul li, .central-ul li, .end-ul li{
+    padding: 0 10px;
 }
