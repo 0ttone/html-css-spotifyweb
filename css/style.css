@@ -21,6 +21,11 @@ main{
 .sidebar{
     background-color: brown;
     color: white;
+    display: flex;
+    flex-flow:column;
+    height: calc(100vh - 90px);
+    justify-content: space-between;
+    overflow: hidden;
 }
 
 main .content{
@@ -67,6 +72,42 @@ ul{
     align-items: center;
 
 }
+.logo img{
+    width: 80%;
+}
+
+.logo-small img{
+    display: none;
+}
+
+
+
+.nav-sidebar ul, .playlist-sidebar ul{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.nav-sidebar ul img{
+    width: 50%;
+}
+
+
+.install img{
+    width: 10%;
+    height: auto;
+}
+
+.user img{
+    width: 25%;
+    height: auto;
+}
+
+/* footer  */
+
+.central-ul{
+    justify-content: center;
+}
 
 .top-menu ul{
     margin-top: 120px;
@@ -80,6 +121,7 @@ img{
     
     
 }
+
 
 .fa-play-circle{
     font-size: 24px;
