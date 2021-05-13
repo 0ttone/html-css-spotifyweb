@@ -19,7 +19,7 @@ main{
 }
 
 .sidebar{
-    background-color: brown;
+    background-color: #000000;
     color: white;
     display: flex;
     flex-flow:column;
@@ -59,8 +59,13 @@ al container */
     display:flex;
     flex-direction:row;
     justify-content: space-between;
+    align-items: center;
 
 
+}
+a{
+    text-decoration: none;
+    color: white;
 }
 
 
@@ -68,11 +73,12 @@ ul{
     display: flex;
     list-style: none;
     color: white;
-    font-size: 12px;
-    align-items: center;
+    /* font-size: 12px; */
+    align-items: flex-start;
 
 }
 .logo img{
+    padding: 10px;
     width: 80%;
 }
 
@@ -85,21 +91,38 @@ ul{
 .nav-sidebar ul, .playlist-sidebar ul{
     display: flex;
     flex-direction: column;
+    align-items:flex-start;
+    padding-left: 10px;
     
 }
+.playlist-sidebar h5{
+    margin-top: 10px;
+    padding-left: 10px;
+}
 
-.nav-sidebar ul img{
-    width: 50%;
+.crea{
+    padding-left: 10px;
+}
+
+.nav-sidebar ul li img{
+    width: 32px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.nav-sidebar ul li a{
+    font-size: 18px;
+    vertical-align: middle;
 }
 
 
 .install img{
-    width: 10%;
+    width: 10px;
     height: auto;
 }
 
 .user img{
-    width: 25%;
+    width: 25px;
     height: auto;
 }
 
