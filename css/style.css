@@ -26,6 +26,7 @@ main{
     height: calc(100vh - 90px);
     justify-content: space-between;
     overflow: hidden;
+    font-size: 12px;
 }
 
 main .content{
@@ -95,44 +96,110 @@ ul{
 }
 
 
+.nav-sidebar{
+    margin-top: 15px;
+}
 
-.nav-sidebar ul, .playlist-sidebar ul{
+.nav-sidebar ul {
     display: flex;
     flex-direction: column;
     align-items:flex-start;
     padding-left: 10px;
     
 }
-.playlist-sidebar h5{
-    margin-top: 10px;
+
+.playlist-sidebar{
+    flex-shrink: 1;
+    flex-grow: 1;
+    overflow: auto;
+}
+
+.playlist-sidebar ul{
+    display: flex;
+    flex-direction: column;
     padding-left: 10px;
+    margin-top: 10px;
+}
+
+.playlist-sidebar li{
+    margin-top: 10px;
+
+
+
+}
+
+
+.playlist-sidebar h5{
+    margin-top: 20px;
+    padding-left: 10px;
+    font-size: 15px;
 }
 
 .crea{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
     padding-left: 10px;
+    font-size: 15px;
+    
+}
+.crea i{
+    font-size: 30px;
+
 }
 
 .nav-sidebar ul li img{
-    width: 32px;
+    width: 30px;
     height: auto;
     vertical-align: middle;
 }
 
 .nav-sidebar ul li a{
-    font-size: 18px;
+    font-size: 12px;
     vertical-align: middle;
+}
+
+/* modifica post-correzione mattina */
+.top-sidebar{
+    display:flex;
+    flex-direction: column;
+    min-height: 600px;
+    padding-left: 10px;
+}
+    
+
+.bottom-sidebar{
+    height: 150px;
+}
+
+.user, .install{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    margin: 10px 5px 10px 5px;
+}
+.install{
+    border-bottom: 1px solid teal;
 }
 
 
 .install img{
-    width: 10px;
+    width: 30px;
     height: auto;
+    
 }
 
 .user img{
     width: 25px;
     height: auto;
 }
+
+
+    
+    
+
+
+
 
 /* footer  */
 
