@@ -30,7 +30,7 @@ main{
 }
 
 main .content{
-    background-color: cadetblue;
+    background-color:#141922;
     overflow-y: scroll;
     height: 100%;
 
@@ -90,20 +90,88 @@ button {
 .nav-top-menu ul li{
     display: inline-block;
     margin-right: 10px;
+    position: relative;
 
 }
-    
 
-    
-    
+/* no - solo riga fare div absolute in li relative?-  
+.nav-top-menu ul li:hover{
+    text-decoration: underline;
+    color: seagreen;
 
-    
+
+}*/
 /* ESEMPIO per calcolare sforo contenuti rispetto
 al container */
-.example{
+ 
+/*.example{
     height: 200vh;
     width: 200px;
 }
+/*
+    /* start album cover name  */
+    
+.content h3{
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    margin-left: 15px;
+
+}
+
+.albums{
+    margin-left:20px;
+
+}
+.name-cover, .ndname-cover{
+    margin-top: 5px;
+    color: white;
+
+}
+
+.name-cover{
+    font-size: 14px;
+}
+.ndname-cover {
+    font-size: 10px;
+    color: #AEAEAE;
+}
+
+.albums .cover img{
+    width: 90%;
+    height: auto;
+}
+
+.cover{
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.icon-play{
+    position: relative;
+}
+.icon-play i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display:none;
+    font-size: 45px;
+
+}
+
+.icon-play:hover i{
+    display: block;
+}
+
+
+
+
+
+
+    
+    
 
 .player{
     display:flex;
