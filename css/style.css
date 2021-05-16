@@ -14,9 +14,9 @@
 main{
     height: calc(100% - 90px);
     
-
-
 }
+
+
 
 .sidebar{
     background-color: #000000;
@@ -46,10 +46,11 @@ footer{
 
 .top-bar{
     height: 90px;
-    opacity: 70%;
+    /* opacity: 70%; */
     background-color: black;
     position: fixed;
     width: 100%;
+    z-index: 1001;
 
 }
 
@@ -116,8 +117,11 @@ al container */
     font-weight: bold;
     color: white;
     margin-left: 15px;
+    margin-top: 15px;
 
 }
+
+
 
 .albums{
     margin-left:20px;
@@ -129,13 +133,24 @@ al container */
 
 }
 
+
 .name-cover{
     font-size: 14px;
 }
+
 .ndname-cover {
     font-size: 10px;
     color: #AEAEAE;
 }
+
+.content span{
+    font-size: 10px;
+    color: #AEAEAE;
+    margin-left: 15px;
+
+}
+
+
 
 .albums .cover img{
     width: 90%;
@@ -163,6 +178,10 @@ al container */
 
 .icon-play:hover i{
     display: block;
+}
+
+.popular .cover img{
+    border-radius: 50%;
 }
 
 
