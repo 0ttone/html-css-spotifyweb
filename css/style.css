@@ -241,7 +241,21 @@ ul{
     flex-direction: column;
     padding-left: 10px;
     margin-top: 10px;
+    
 }
+
+.playlist-sidebar ul li a{
+    color:#a3a3a3
+}
+.playlist-sidebar ul li a:hover{
+    color:white;
+}
+
+.crea i:hover{
+    color:white
+
+}
+
 
 .playlist-sidebar li{
     margin-top: 10px;
@@ -267,6 +281,8 @@ ul{
 }
 .crea i{
     font-size: 30px;
+    color:#a3a3a3
+
 
 }
 
@@ -279,7 +295,14 @@ ul{
 .nav-sidebar ul li a{
     font-size: 12px;
     vertical-align: middle;
+    color:#a3a3a3
 }
+
+.nav-sidebar ul li a:hover{
+    color: white;
+}
+
+
 
 /* modifica post-correzione mattina */
 .top-sidebar{
@@ -337,6 +360,7 @@ ul{
     flex-grow: 1;
     height: 100%;
     flex-basis: 50%;
+    align-items: center;
     color: white;
 }
 
