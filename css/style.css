@@ -70,6 +70,10 @@ button {
     color: white;
 }
 
+.top-bar button:hover{
+    transform: scale(1.1);
+}
+
 /* nav top-menu  no flex*/
 
 
@@ -81,7 +85,10 @@ button {
 .nav-top-menu ul{
     font-size: 14px;
     display: inline-block;
+    color:#a3a3a3;
 }
+
+
     
 .nav-top-menu ul li{
     display: inline-block;
@@ -251,7 +258,7 @@ ul{
     color:white;
 }
 
-.crea i:hover{
+.crea i:hover, .nav-top-menu ul li:hover, .crea:hover, .install .button-name:hover {
     color:white
 
 }
@@ -277,8 +284,11 @@ ul{
     margin-top: 15px;
     padding-left: 10px;
     font-size: 15px;
+    color:#a3a3a3
     
 }
+
+
 .crea i{
     font-size: 30px;
     color:#a3a3a3
@@ -324,6 +334,9 @@ ul{
     padding-left: 10px;
     margin: 10px 5px 10px 5px;
 }
+.install .button-name{
+    color:#a3a3a3
+}
 .install{
     border-bottom: 1px solid teal;
 }
@@ -357,6 +370,7 @@ ul{
 }
 
 .player-controller{
+    display: flex;
     flex-grow: 1;
     height: 100%;
     flex-basis: 50%;
@@ -473,6 +487,45 @@ ul{
     align-items: center;
 }
 
+
+@media all and (max-width: 576px){
+    
+    .logo{
+        display: none;
+    }
+
+    .logo-small img{
+        display: flex;
+        padding: 10px;
+    }
+
+    button{
+        display: none;
+    }
+
+    .playlist-sidebar{
+        display: none;
+    }
+
+    .install{
+        display: none;
+    }
+
+    .nav-sidebar ul li a{
+        display: none;
+    }
+
+    .sidebar *{
+        margin: 10px 0px 10px 1px;
+    }
+
+
+
+
+
+
+
+}
 
 
 
